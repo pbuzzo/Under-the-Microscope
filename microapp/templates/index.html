@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+<html>
+    {% block title %}Home{% endblock %}
+
+    {% block content %}
+    {% if user.is_authenticated %}
+    <div class="logged_wrapper">
+      Hi {{ user.username }}!
+      <HR>
+      Your Biography: {{ user.bio }}
+      <BR>
+      Your Website URL: {{ user.url }}
+      <BR>
+      Your Location: {{ user.age }}
+      <BR>
+      <HR>
+      <p><a href="{% url 'logout' %}">logout</a></p>
+    </div>
+    {% else %}
+    <div class="not_logged_wrapper">
+      <p class="not_logged">You are not logged in</p>
+      <BR>
+      <a href="{% url 'login' %}">login</a> |
+      <a href="{% url 'signup' %}">signup</a>
+    </div>
+    {% endif %}
+    {% endblock %}
+</html>

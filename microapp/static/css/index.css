@@ -1,0 +1,76 @@
+body {
+    margin-left: 10px;
+    color: white;
+    background-color: #003848;
+}
+
+.not_logged {
+    color: black;
+}
+
+body a {
+    color: #1eb7c2;
+}
+
+button {
+    color: black;
+}
+
+button a {
+    color: black;
+}
+
+.not_logged_wrapper {
+    margin-top: 15px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-width: 360px;
+    margin-left: 15px;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.logged_wrapper {
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-width: 360px;
+    margin-left: 15px;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.login_wrapper {
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-width: 360px;
+    margin-left: 15px;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.login_button {
+    border: 2px solid black;
+}
+
+.signin_wrapper {
+    color: black;
+    margin-top: 15px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-width: 860px;
+    margin-left: 15px;
+    margin-right: auto;
+    background-color: white;
+    border: 3px solid black;
+}
